@@ -129,7 +129,7 @@ DeleteData(id){
   <div className="modal-dialog" role="document">
     <div className="modal-content">
       <div className="modal-header">
-        <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 className="modal-title" id="exampleModalLabel">Add new User</h5>
         <button type="button" className="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -152,7 +152,7 @@ DeleteData(id){
             
              <div className="form-group">
               <label for="username">User Name</label>
-            <input type="text" className="form-control" value={this.state.name} onChange={ this.handleChange } id="name" name="name" aria-describedby="emailHelp" placeholder="Enter email"/>
+            <input type="text" className="form-control" value={this.state.name} onChange={ this.handleChange } id="name" name="name" aria-describedby="emailHelp" placeholder="Enter username"/>
                   </div>
             <div className="form-group">
           <label for="address">Address</label>
@@ -198,7 +198,7 @@ DeleteData(id){
   <div className="modal-dialog" role="document">
     <div className="modal-content">
       <div className="modal-header">
-        <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 className="modal-title" id="exampleModalLabel">Edit User</h5>
         <button type="button" className="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -208,7 +208,7 @@ DeleteData(id){
       <div className="row">
                <div className="col-4"> 
           <div className="pro-holder">
-                   <img src="http://via.placeholder.com/140x100" width="100px" height="100px" class="rounded-circle" alt=""/>
+                   <img src="http://via.placeholder.com/140x100" width="100px" height="100px" className="rounded-circle" alt=""/>
                    </div>
                    <div className="upload"><button type="button"  className="btn up btn-primary btn-sm">Upload</button></div>
              </div>
@@ -221,7 +221,7 @@ DeleteData(id){
             
              <div className="form-group">
               <label for="username">User Name</label>
-            <input type="text" className="form-control" value={this.state.name} onChange={ this.handleChange }  name="name" aria-describedby="emailHelp" placeholder="Enter email"/>
+            <input type="text" className="form-control" value={this.state.name} onChange={ this.handleChange }  name="name" aria-describedby="emailHelp" placeholder="Enter username"/>
                   </div>
             <div className="form-group">
           <label for="address">Address</label>
