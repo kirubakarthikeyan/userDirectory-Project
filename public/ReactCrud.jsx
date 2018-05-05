@@ -270,8 +270,8 @@ DeleteData(id){
            <tr className="header">
              <th >USERNAME</th>
              <th >ADDRESS</th>
-             <th >CONTACT</th>
              <th >EMAIL</th>
+             <th >CONTACT</th>
              <th>OPTIONS</th>
            </tr>
          </thead>
